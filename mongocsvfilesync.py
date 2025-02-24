@@ -137,8 +137,8 @@ def synchronize_data(csv_file, mongo_uri, database_name, collection_name, primar
 
 #__MAIN__ 
 
-synchronize_data("C:/Users/aksha/Desktop/mongoexceltest.csv", #EXCEL FILE LOCATION
-                 "mongodb+srv://NewUser:mongo123456@cluster0.nnyqklj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", #CLUSTER CONNECTION SCRIPT
+synchronize_data("yourfile.csv", #EXCEL FILE LOCATION
+                 "[connectionscript(local/Atlas)]", #CLUSTER CONNECTION SCRIPT
                  "ExcelDB", #DATABASE NAME
                  "Excel",   #COLLECTION NAME
                  "EEID"     #PRIMARY KEY
